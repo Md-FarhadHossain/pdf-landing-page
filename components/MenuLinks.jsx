@@ -21,7 +21,7 @@ export const MenuLinks = () => {
       <ul className="flex gap-4">
         {links.map((link) => (
           <li key={link.label}>
-            <Link href={link.href}>{link.label}</Link>
+            <Link className="font-semibold" href={link.href}>{link.label}</Link>
           </li>
         ))}
       </ul>

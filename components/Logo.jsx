@@ -1,10 +1,13 @@
 import logo from "@/public/logo.svg"
 import Image from "next/image"
+import Link from "next/link"
 
 export const Logo = () => {
   return (
     <div>
-      <Image src={logo} alt="logo" />
+      <Link href="/">
+        <Image src={logo} alt="logo" />
+      </Link>
     </div>
   )
 }
